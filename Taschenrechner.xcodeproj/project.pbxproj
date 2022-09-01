@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB44F813272FB521006D70F6 /* TschenrechnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB44F812272FB521006D70F6 /* TschenrechnerApp.swift */; };
+		EB44F815272FB521006D70F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB44F814272FB521006D70F6 /* ContentView.swift */; };
+		EB44F817272FB523006D70F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB44F816272FB523006D70F6 /* Assets.xcassets */; };
+		EB44F81A272FB523006D70F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB44F819272FB523006D70F6 /* Preview Assets.xcassets */; };
+		EB44F824272FB523006D70F6 /* TschenrechnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB44F823272FB523006D70F6 /* TschenrechnerTests.swift */; };
+		EB44F82E272FB523006D70F6 /* TschenrechnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB44F82D272FB523006D70F6 /* TschenrechnerUITests.swift */; };
+		EB44F830272FB523006D70F6 /* TschenrechnerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB44F82F272FB523006D70F6 /* TschenrechnerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB44F820272FB523006D70F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB44F807272FB521006D70F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB44F80E272FB521006D70F6;
+			remoteInfo = Tschenrechner;
+		};
+		EB44F82A272FB523006D70F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB44F807272FB521006D70F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB44F80E272FB521006D70F6;
+			remoteInfo = Tschenrechner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB44F80F272FB521006D70F6 /* Taschenrechner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taschenrechner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB44F812272FB521006D70F6 /* TschenrechnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TschenrechnerApp.swift; sourceTree = "<group>"; };
+		EB44F814272FB521006D70F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB44F816272FB523006D70F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB44F819272FB523006D70F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB44F81F272FB523006D70F6 /* TaschenrechnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaschenrechnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB44F823272FB523006D70F6 /* TschenrechnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TschenrechnerTests.swift; sourceTree = "<group>"; };
+		EB44F829272FB523006D70F6 /* TaschenrechnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaschenrechnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB44F82D272FB523006D70F6 /* TschenrechnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TschenrechnerUITests.swift; sourceTree = "<group>"; };
+		EB44F82F272FB523006D70F6 /* TschenrechnerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TschenrechnerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB44F80C272FB521006D70F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F81C272FB523006D70F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F826272FB523006D70F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB44F806272FB521006D70F6 = {
+			isa = PBXGroup;
+			children = (
+				EB44F811272FB521006D70F6 /* Tschenrechner */,
+				EB44F822272FB523006D70F6 /* TschenrechnerTests */,
+				EB44F82C272FB523006D70F6 /* TschenrechnerUITests */,
+				EB44F810272FB521006D70F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB44F810272FB521006D70F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F80F272FB521006D70F6 /* Taschenrechner.app */,
+				EB44F81F272FB523006D70F6 /* TaschenrechnerTests.xctest */,
+				EB44F829272FB523006D70F6 /* TaschenrechnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB44F811272FB521006D70F6 /* Tschenrechner */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F812272FB521006D70F6 /* TschenrechnerApp.swift */,
+				EB44F814272FB521006D70F6 /* ContentView.swift */,
+				EB44F816272FB523006D70F6 /* Assets.xcassets */,
+				EB44F818272FB523006D70F6 /* Preview Content */,
+			);
+			path = Tschenrechner;
+			sourceTree = "<group>";
+		};
+		EB44F818272FB523006D70F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F819272FB523006D70F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB44F822272FB523006D70F6 /* TschenrechnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F823272FB523006D70F6 /* TschenrechnerTests.swift */,
+			);
+			path = TschenrechnerTests;
+			sourceTree = "<group>";
+		};
+		EB44F82C272FB523006D70F6 /* TschenrechnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F82D272FB523006D70F6 /* TschenrechnerUITests.swift */,
+				EB44F82F272FB523006D70F6 /* TschenrechnerUITestsLaunchTests.swift */,
+			);
+			path = TschenrechnerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB44F80E272FB521006D70F6 /* Taschenrechner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB44F833272FB523006D70F6 /* Build configuration list for PBXNativeTarget "Taschenrechner" */;
+			buildPhases = (
+				EB44F80B272FB521006D70F6 /* Sources */,
+				EB44F80C272FB521006D70F6 /* Frameworks */,
+				EB44F80D272FB521006D70F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taschenrechner;
+			productName = Tschenrechner;
+			productReference = EB44F80F272FB521006D70F6 /* Taschenrechner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB44F81E272FB523006D70F6 /* TaschenrechnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB44F836272FB523006D70F6 /* Build configuration list for PBXNativeTarget "TaschenrechnerTests" */;
+			buildPhases = (
+				EB44F81B272FB523006D70F6 /* Sources */,
+				EB44F81C272FB523006D70F6 /* Frameworks */,
+				EB44F81D272FB523006D70F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB44F821272FB523006D70F6 /* PBXTargetDependency */,
+			);
+			name = TaschenrechnerTests;
+			productName = TschenrechnerTests;
+			productReference = EB44F81F272FB523006D70F6 /* TaschenrechnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB44F828272FB523006D70F6 /* TaschenrechnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB44F839272FB523006D70F6 /* Build configuration list for PBXNativeTarget "TaschenrechnerUITests" */;
+			buildPhases = (
+				EB44F825272FB523006D70F6 /* Sources */,
+				EB44F826272FB523006D70F6 /* Frameworks */,
+				EB44F827272FB523006D70F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB44F82B272FB523006D70F6 /* PBXTargetDependency */,
+			);
+			name = TaschenrechnerUITests;
+			productName = TschenrechnerUITests;
+			productReference = EB44F829272FB523006D70F6 /* TaschenrechnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB44F807272FB521006D70F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EB44F80E272FB521006D70F6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					EB44F81E272FB523006D70F6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EB44F80E272FB521006D70F6;
+					};
+					EB44F828272FB523006D70F6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EB44F80E272FB521006D70F6;
+					};
+				};
+			};
+			buildConfigurationList = EB44F80A272FB521006D70F6 /* Build configuration list for PBXProject "Taschenrechner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB44F806272FB521006D70F6;
+			productRefGroup = EB44F810272FB521006D70F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB44F80E272FB521006D70F6 /* Taschenrechner */,
+				EB44F81E272FB523006D70F6 /* TaschenrechnerTests */,
+				EB44F828272FB523006D70F6 /* TaschenrechnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB44F80D272FB521006D70F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44F81A272FB523006D70F6 /* Preview Assets.xcassets in Resources */,
+				EB44F817272FB523006D70F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F81D272FB523006D70F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F827272FB523006D70F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB44F80B272FB521006D70F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44F815272FB521006D70F6 /* ContentView.swift in Sources */,
+				EB44F813272FB521006D70F6 /* TschenrechnerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F81B272FB523006D70F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44F824272FB523006D70F6 /* TschenrechnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F825272FB523006D70F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44F82E272FB523006D70F6 /* TschenrechnerUITests.swift in Sources */,
+				EB44F830272FB523006D70F6 /* TschenrechnerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB44F821272FB523006D70F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB44F80E272FB521006D70F6 /* Taschenrechner */;
+			targetProxy = EB44F820272FB523006D70F6 /* PBXContainerItemProxy */;
+		};
+		EB44F82B272FB523006D70F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB44F80E272FB521006D70F6 /* Taschenrechner */;
+			targetProxy = EB44F82A272FB523006D70F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB44F831272FB523006D70F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB44F832272FB523006D70F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB44F834272FB523006D70F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tschenrechner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.Taschenrechner;
+				PRODUCT_NAME = Taschenrechner;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB44F835272FB523006D70F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tschenrechner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.Taschenrechner;
+				PRODUCT_NAME = Taschenrechner;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB44F837272FB523006D70F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.TschenrechnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taschenrechner.app/Taschenrechner";
+			};
+			name = Debug;
+		};
+		EB44F838272FB523006D70F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.TschenrechnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taschenrechner.app/Taschenrechner";
+			};
+			name = Release;
+		};
+		EB44F83A272FB523006D70F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.TschenrechnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tschenrechner;
+			};
+			name = Debug;
+		};
+		EB44F83B272FB523006D70F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.TschenrechnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tschenrechner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB44F80A272FB521006D70F6 /* Build configuration list for PBXProject "Taschenrechner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB44F831272FB523006D70F6 /* Debug */,
+				EB44F832272FB523006D70F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB44F833272FB523006D70F6 /* Build configuration list for PBXNativeTarget "Taschenrechner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB44F834272FB523006D70F6 /* Debug */,
+				EB44F835272FB523006D70F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB44F836272FB523006D70F6 /* Build configuration list for PBXNativeTarget "TaschenrechnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB44F837272FB523006D70F6 /* Debug */,
+				EB44F838272FB523006D70F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB44F839272FB523006D70F6 /* Build configuration list for PBXNativeTarget "TaschenrechnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB44F83A272FB523006D70F6 /* Debug */,
+				EB44F83B272FB523006D70F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB44F807272FB521006D70F6 /* Project object */;
+}
